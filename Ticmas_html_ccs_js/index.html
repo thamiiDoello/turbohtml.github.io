@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/iconos/favicon.ico">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <!--Header-->
+    <div id="barra">
+        <i class="fa-solid fa-code" id="icono-header"></i>
+        <a href="javascript:void(0)" onclick="funcion()">
+            <i class="fa-solid fa-bars" id="icono-barra"></i>
+        </a> 
+        <ul id="barra-lista">
+            <li><a href="#" >Inicio</a></li>
+            <li><a href="#desc" >Perfil</a></li>
+            <li><a href="#contenedor-habilidades" >Habilidades</a></li>
+            <li><a href="#proyectos" >Proyectos</a></li>
+            <li><a href="#cont" >Contacto</a></li>
+        </ul>
+               
+    </div>
+    
+    <!--Header-->
+    
+    <div class="presentacion">
+        <img src="img/tami.png" alt="" id="thamii">
+        <h1>Thamii Doello</h1>
+        <h2>Ingeniera En Sistemas & Desarrolladora Web   </h2>
+    </div>
+
+    <!--Body-->
+
+    <div class="descripcion" id="desc">
+        <img id="perfil" src="img/perfil thamii.png" alt="Tamara Soledad Doello">
+        <div class="descripcion-contenedor">
+            <div class="sobre-mi">
+                <h2>Perfil</h2>
+                <p>Mi nombre es Thamii  Doello. Soy Desarrolladora Web. Actualmente vivo en Garin, Buenos Aires, Argentina. Soy muy apasionada y dedicada a mi trabajo. Tengo las habilidades necesarias para construir un fascinante sitio web de gran calidad.</p>
+                <!--Descripcion genérica de la Persona. No es real-->
+            </div>
+            <div class="contenedor-grid">
+                <div class="grid-item"><strong>Nombre: </strong><p>Thamii Doello</p></div>
+                <div class="grid-item"><strong>Teléfono: </strong><p>011-25209448</p></div>
+                <div class="grid-item"><strong>Edad: </strong> <p>28 años</p></div>
+                <div class="grid-item"><strong>Direccion:</strong> <p>Buenos Aires, Argentina</p></div>
+                <div class="grid-item"><strong>Experiencia: </strong> <p>6 meses</p></div>
+                <div class="grid-item"><strong>Email: </strong> <p>Std4269@gmail.com</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Habilidades-->
+
+    <div id="contenedor-habilidades">
+        <div class="habilidades-flex">
+            <h2 id="h2-habilidades">Habilidades</h2>
+            <button id="boton-habilidades">Color</button>
+        </div>
+        <div id="habilidades">
+            <div class="habilidades-item">
+                <h2>HTML</h2>
+                <img src="./img/html.png" alt="Logo de HTML" class="icon">
+            </div>
+            <div class="habilidades-item">
+                <h2>CSS</h2>
+                <img src="./img/css.png" alt="Logo de CSS" class="icon">
+            </div>
+            <div class="habilidades-item">
+                <h2>JavaScript</h2>
+                <img src="./img/js.jpg" alt="Logo de JavaScript" class="icon">
+            </div>
+            <div class="habilidades-item">
+                <h2>Git</h2>
+                <img src="./img/git.png" alt="Logo de Git" class="icon">
+            </div>
+            <div class="habilidades-item">
+                <h2>MySQL</h2>
+                <img src="./img/mysql.png" alt="Logo de MySQL" class="icon" id="sql">
+            </div>
+            <div class="habilidades-item">
+                <h2>PHP</h2>
+                <img src="./img/php.png" alt="Logo de PHP" class="icon" id="php">
+            </div>
+        </div>
+    </div>
+
+    <!--Proyectos-->
+
+    <div id="proyectos">
+        <h2 id="proyectos-h2">Proyectos</h2>
+        <ul id="proyectos-flex">
+            <li class="proyectos-item" id="Ejemplo1"> 
+                <a href="">
+                <div class="overlay">
+                    <p>Ejemplo 1</p>
+                </div>
+                </a>
+            </li>
+
+            <li class="proyectos-item" id="Ejemplo2">
+                <a href="">
+                <div class="overlay">
+                    <p>Ejemplo 2</p>
+                </div>
+                </a>
+            </li>
+
+            <li class="proyectos-item" id="Ejemplo3">
+                <a href="">
+                <div class="overlay">
+                    <p>Ejemplo 3</p>
+                </div>
+                </a>
+        </li>
+  
+    </ul>
+    </div>
+
+    <!--Contacto-->
+
+    <div class="contacto" id="cont">
+        <h2>Contacto</h2>
+            <form class="contacto-form">
+                <input type="text" placeholder="Nombre" class="contacto-item" required>
+                <input type="email" placeholder="Email" class="contacto-item" required>
+                <textarea name="message" rows="7" cols="30" placeholder="Mensaje" class="contacto-item" required></textarea>
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+    </div>
+
+    <!--Footer-->
+
+    <footer>
+        <a href="https://github.com/thamiiDoello" >
+            <i class="fa-brands fa-github"></i>
+
+        <a href="https://www.facebook.com/tamii.doello/">
+            <i class="fa-brands fa-facebook"></i>
+
+        <a href="https://twitter.com/thamii_doello">    
+            <i class="fa-brands fa-twitter"></i>
+
+        <a href="https://www.instagram.com/thamii_doello/">    
+            <i class="fa-brands fa-instagram"></i>
+                thamiiDoello</a>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/cb61407d7a.js" crossorigin="anonymous"></script>
+</body>
+</html>
